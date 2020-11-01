@@ -1,10 +1,10 @@
-#Titr 1
-##Titr 2
-###Titr 3
+# Titr 1
+## Titr 2
+### Titr 3
 .
 .
 .
-######Titr 6
+###### Titr 6
 
 [Link_Name](Link_URL)
 
@@ -12,6 +12,7 @@
 
 ```
 Codes are going here!
+```
 
 *italic 1*
 _italic 2_
@@ -36,5 +37,5 @@ _You can **Test** Here!_
 
 * 1
 * 2
-  *1
-  *2
+  ** 1
+  ** 2
