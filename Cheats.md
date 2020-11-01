@@ -37,8 +37,8 @@ _You can **Test** Here!_
 
 * 1
 * 2
- ** 1
- ** 2
+  * 1
+  * 2
 
 > qoute :D
 
@@ -55,3 +55,4 @@ Content in the first column | Content in the second column
 `inline code is just one backtick`
 
 :heart: :+1: :smile: :sparkles: :tada:
+
