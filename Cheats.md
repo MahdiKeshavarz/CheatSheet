@@ -39,3 +39,19 @@ _You can **Test** Here!_
 * 2
  ** 1
  ** 2
+
+> qoute :D
+
+Mention Me using @MahdiKeshavarz
+
+Table :
+```
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+```
+
+`inline code is just one backtick`
+
+:heart: :+1: :smile: :sparkles: :tada:
