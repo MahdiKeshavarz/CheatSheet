@@ -7,3 +7,5 @@ install exporter
 configuring exporter yml
 start and enable services
 check on webui
+add metrics and labels
+:radio_button:
