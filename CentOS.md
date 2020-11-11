@@ -2,6 +2,8 @@
 
 _|| && ;;_
 _| & ;_
+_fg bg_
+_lt eq gt_
 
 ## ls
 list files and directories
@@ -117,4 +119,35 @@ find a word or pattern in a file
 ## egrep
 it's same az grep -E
 
-## 
+## while
+
+## loop
+
+## for
+
+## systemctl
+
+## hostnamectl
+hostname status
+
+## ifup
+make a ethernet connection On or up
+
+## ifdown
+make a ethernet connection Off or down
+
+## ip
+
+ ip a =>
+ ip route show =>
+ 
+ ## yum
+ 
+ yum list installed
+ yum check -update
+ yum update -y => update all with YES
+ yum search [package name]
+ 
+ ## uname -r
+ 
+ ##
