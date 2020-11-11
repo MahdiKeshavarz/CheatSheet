@@ -126,6 +126,13 @@ it's same az grep -E
 ## for
 
 ## systemctl
+systemctl list-units
+systemctl list-unit-files --type=service
+systemctl status [service]
+systemctl start [service]
+systemctl stop [service]
+systemctl disable [service]
+systemctl enable [service]
 
 ## hostnamectl
 hostname status
@@ -141,13 +148,39 @@ make a ethernet connection Off or down
  ip a =>
  ip route show =>
  
- ## yum
+## yum
  
  yum list installed
  yum check -update
  yum update -y => update all with YES
  yum search [package name]
+ yum install [package name]
  
- ## uname -r
+## rpm -ql [package name]
+ find name and directory of files of an installed package
  
- ##
+## rpm -Uvh [package name]
+ 
+## uname -r
+ 
+## less
+ 
+## firewall-cmd --list-all
+## firewall-cmd --permenant --add-service [service name]
+## firewall-cmd --permenant --remove-service [service name]
+## firewall-cmd --reload
+## firewall-cmd --permenant --add-port=12345/tcp
+## firewall-cmd --permenant --remove-port=12345/udp
+  
+## ACL
+  Access Control List
+  getfacl [file]
+  setfacl [file]
+  example: setfacl -m user:[user]:[rwx] [file]
+  example: setfacl -x user:[group]:[rwx] [file]
+  
+## setuid
+  set user id
+## setgid
+  set group id
+## sticky bit
